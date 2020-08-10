@@ -1,0 +1,59 @@
+<html>
+<head>
+<style>
+    .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.flex-container {
+  display: flex;
+}
+</style>
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="https://cdn.shopify.com/s/files/1/0948/5184/products/image_88f466dc-aa6e-4ac7-83e4-2e34e651c1bc_grande.jpeg?v=1478010941"/>
+        <nav id="nav-bar">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#product">Product</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <selection id="home">
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+    </selection>
+    <selection id="product">
+        <h1>Product Landing Page</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/99k-EAMBuM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </selection>
+    <selection id="contact">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="Enter your email here"></input>
+            <input id="submit" type="submit"></input>
+        </form>
+    </selection>
+    
+</body>
+
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+</html>
